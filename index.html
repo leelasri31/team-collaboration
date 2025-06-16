@@ -1,41 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web Page</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PageTurner</title>
+  <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
 
-    <header>
-        <h1>My Website</h1>
-    </header>
-
+  <header>
+    <div class="top-bar">
+      <h1>PageTurner</h1>
+      <p class="tagline">Your trusted online bookstore for every reader</p>
+    </div>
     <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
     </nav>
 
-    <div class="container">
-        <main>
-            <h2>Welcome to My Website</h2>
-            <p>This is the main content area.</p>
-        </main>
-
-        <aside>
-            <h3>Sidebar</h3>
-            <p> extra information </p>
-        </aside>
+    <div class="search-bar">
+      <input type="text" placeholder="Search books..." />
+      <button>Search</button>
     </div>
+  </header>
 
-    <footer>
-        <p> © 2025 My Website</p>
-    </footer>
+  <div class="container">
+    <main>
+      <h2>Welcome to PageTurner</h2>
+      <p>Explore thousands of books across all genres. Fast delivery, genuine titles, and unbeatable prices.</p>
+
+      <section class="trending-section">
+        <h3>📚 Trending Books</h3>
+        <div class="book-list">
+          <div class="book-card">
+            <h4>The Silent Patient</h4>
+            <p>by Alex Michaelides</p>
+            <div class="book-card">
+  <h4>The Power of Reading</h4>
+  <p>by John Reader</p>
+  <span class="book-price">₹399</span><br>
+  <button class="buy-btn">Buy Now</button>
+</div>
+
+          </div>
+          <div class="book-card">
+            <h4>Atomic Habits</h4>
+            <p>by James Clear</p>
+            <div class="book-card">
+  <h4>The Power of Reading</h4>
+  <p>by John Reader</p>
+  <span class="book-price">₹299</span><br>
+  <button class="buy-btn">Buy Now</button>
+</div>
+
+          </div>
+          <div class="book-card">
+            <h4>It Ends With Us</h4>
+            <p>by Colleen Hoover</p>
+            <div class="book-card">
+  <h4>The Power of Reading</h4>
+  <p>by John Reader</p>
+  <span class="book-price">₹599</span><br>
+  <button class="buy-btn">Buy Now</button>
+</div>
+
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <aside>
+      <h3>Sidebar</h3>
+      <p>✨ Member Offer: Buy 2 Get 1 Free!</p>
+    </aside>
+  </div>
+
+  <footer>
+    <p>© 2025 PageTurner. All rights reserved.</p>
+  </footer>
 
 </body>
 </html>
